@@ -1,0 +1,10 @@
+algo = input('Digite algo: ')
+
+print('O tipo primitivo do que você digitou é: ', type(algo))
+print('É numérico? ', algo.isnumeric())
+print('É alfabético? ', algo.isalpha())
+print('É alfanumérico? ', algo.isalnum())
+print('Está totalmente em maiúsculo? ', algo.isupper())
+print('Está totalmente em minúsculo? ', algo.islower())
+print('Só tem espaços? ', algo.isspace())
+print('Está capitalizada? ', algo.istitle())
